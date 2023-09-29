@@ -113,12 +113,12 @@ padding: 0;
 }
 
 /*Seccion Sobremi*/
-.sobremi{
+.NOSOTROS {
                         background-color: black;
                         color: aquamarine;
                         padding: 50px 20px;
 }
-.sobremi .contenido-seccion{
+.NOSOTROS .contenido-seccion{
                         max-width: 1100px;
                         margin: auto;
 }
@@ -127,45 +127,45 @@ padding: 0;
            text-align: center;   
            padding: 20px 0;         
 }
-.sobremi .contenido-seccion p{
+.NOSOTROS .contenido-seccion p{
                         font-size:20px ;
                         font: 25px;
                         line-height: 22px;
 }
-.sobremi .contenido-seccion p span{
+.NOSOTROS .contenido-seccion p span{
                         font-size: 20px;
                         color: rgb(22, 177, 48);
                         font-weight: bold;
 }
-.sobremi .fila{
+.NOSOTROS .fila{
                         display: flex;
 }
-.sobremi .fila .col{
+.NOSOTROS .fila .col{
                         width: 60%;
 }
-.sobremi .fila .col h3{
+.NOSOTROS .fila .col h3{
                         font-size: 25px;
                         margin-bottom: 25px;
 }
-.sobremi .fila .col ul{
+.NOSOTROS .fila .col ul{
                         list-style: none;
 }
-.sobremi .fila .col ul li{
+.NOSOTROS .fila .col ul li{
                         margin: 10px 0;
                         font-size: 18px;
 
 }
-.sobremi .fila .col ul li span{
+.NOSOTROS .fila .col ul li span{
                         background-color: blueviolet;
                         padding: 3px;
                         font-weight: bold;
                         border-radius: 5px;
 }
-.sobremi .fila .col .contenedor-intereses .interes{
+.NOSOTROS .fila .col .contenedor-intereses .interes{
                         font-size: 18px;
                         margin-bottom: 10px;
 }
-.sobremi button{
+.NOSOTROS button{
   cursor: pointer;
   background-color:aqua;
   width: fit-content;
@@ -173,7 +173,7 @@ padding: 0;
   position: relative;
   z-index: 10;
 }
-.sobremi button .overlay {
+.NOSOTROS button .overlay {
                         position: absolute;
                         background-color:chartreuse;
                         top: 0;
@@ -183,7 +183,7 @@ padding: 0;
                         z-index: 1;
                         transition: 1s;
  }
- .sobremi button:hover .overlay{
+ .NOSOTROS button:hover .overlay{
   width: 100%;
  }
 
