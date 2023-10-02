@@ -122,7 +122,7 @@ padding: 0;
                         max-width: 1100px;
                         margin: auto;
 }
-.sobremi h2{
+.NOSOTROS h2{
            font-size: 46px; 
            text-align: center;   
            padding: 20px 0;         
@@ -188,74 +188,74 @@ padding: 0;
  }
 
 /* SECCION CURRICULUM */
-.curriculum{
+.SITIOS{
                         background-color:khaki;
                         color:rgb(41, 28, 224);
                         padding: 50px 20px;
 }
-.curriculum .contenido-seccion {
+.SITIOS .contenido-seccion {
                         max-width: 1100px;
                         margin: auto;
 }
-.curriculum h2{
+.SITIOS h2{
                         font-size: 38px;
                         text-align:center;
                         padding: 20px 0;
 }
-.curriculum .fila{
+.SITIOS .fila{
                         display:flex;
 }
-.curriculum .fila .col{
+.SITIOS .fila .col{
   width: 49%;
   padding: 0 20px;
 }
-.curriculum .fila .item h4{
+.SITIOS .fila .item h4{
   font-size: 20px;
 }
-.curriculum .fila h3{
+.SITIOS .fila h3{
   font-size: 24px;
 }
-.curriculum .fila .item{
+.SITIOS .fila .item{
   padding: 10px;
   margin-bottom: 20px;
   background-color:floralwhite;
   position: relative;
 }
-.curriculum .fila .item h4{
+.SITIOS .fila .item h4{
   color:rgb(241, 19, 186);
   font-size: 25;
   font-weight: bold;
 }
 
-.curriculum .fila .item .establecimiento{
+.SITIOS .fila .item .establecimiento{
   color: black;
   font-size: 20;
   font-weight: bold;
 }
-.curriculum .fila .izq{
+.SITIOS.fila .izq{
   border-right: 3px solid red;
   margin-right: 22px;
 }
-.curriculum .fila .der{
+.SITIOS .fila .der{
   border-left: 3px solid red;
   margin-left: 22px;
 }
-/* Seccion Contacto */
-.contacto .contenido-seccion{
+/* Seccion Contactos */
+.CONTACTOS .contenido-seccion{
                         background-color: aquamarine;
                         max-width: 1100px;
                         margin: auto;
                         
 }
-.contacto h2{
+.CONTACTOS h2{
                         font-size: 44px; 
                         text-align: center;   
                         padding: 20px 0; 
 }
-.contacto .fila{
+.CONTACTOS .fila{
                 display: flex;
 }
-.contacto .col{
+.CONTACTOS .col{
                         width: 90%;
                         padding: 10px;
                         position: relative;
