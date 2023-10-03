@@ -8,20 +8,20 @@ padding: 0;
 /* Menu */
 .contenedor-header{
 
-                  background: rgb(27, 231, 119);
+                  background: rgb(26, 224, 29);
                   position: fixed;
                   width: 100%;
                   top: 0;
                   left: 0;
-                  z-index: 90%;
+                  z-index: 80%;
 }
 .contenedor-header header{
-                  max-width: 1100px;
+                  max-width: 900px;
                   margin: auto;
                   display: flex;
                   justify-content: space-between;
                   align-items: center;
-                  padding: 15px 25px;
+                  padding: 5px 25px;
 }
 .contenedor-header header .logo a{
                   font-family:unset;               
@@ -34,46 +34,49 @@ padding: 0;
                   list-style: none;
 }
 .contenedor-header header nav ul li a{
-                  font-family:unset;
-                  font-size: 23px;
-                  text-align: none;
-                  color: blue;
-                  margin: 0 15px;
-                  padding: 3px;
-                  transition: 1s;
-                  text-decoration: none;
+  font-family:unset;
+  font-size: 23px;
+  text-align: none;
+  color: blue;
+  margin: 0 15px;
+  padding: 3px;
+  transition: 1s;
+  text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover{
-                  color:rgb(20, 204, 20);
+  color:red;
 }
 .nav-responsive{
-                  background-color: blueviolet;
-                  color: antiquewhite;
-                  padding: 5px 10px;
-                  border-radius: 5px;
-                  cursor: pointer;
-                  display: none;
+  background-color: blueviolet;
+  color: antiquewhite;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
 }
+
+
 /* SECCION INICIO*/
 .inicio{
-                      background-image: url("IMG_20170420_080741.jpg");
-                      background-size: cover;
-                      height: 100vh;
-                      color:blue;
-                      display: flex;
-                      align-items: center;
-                      justify-content:center;
-}
+background-image: url("../src/img/grupo-perros.jpg");
+background-size: cover;
+height: 100vh;
+color:rgb(252, 37, 37);
+display: flex;
+justify-content:center;   
+align-items: center;
+} 
+                     
 
 .inicio .contenedor-banner{
                       display: block;
-                      background-color:darkgray;
+                      background-color:greenyellow;
                       align-items: center;
                       padding: 10px;
                       max-width: 250px;
                       margin-top: auto;
                       text-align: center;
-                      border-radius: 60px;
+                      border-radius: 40px;
 }
 .inicio .contenedor-banner img{
                     
@@ -83,8 +86,8 @@ padding: 0;
                       border: 3px solid blue;
                       width: 99%;
                       margin-top: auto;
-                     border-radius: 40%;
-                     height: 43vh;
+                     border-radius: 30%;
+                     height: 40vh;
 }
 .inicio .contenedor-banner h1{
                       margin-top: 50 px;
@@ -96,23 +99,23 @@ padding: 0;
                       font-family:initial;
 }
 .inicio .contenedor-banner .redes a{
-                    justify-content: center;
-                        color:darkblue; 
-                        display:inline-block;  
-                        text-decoration: none;
-                        border: 3px solid black;
-                        border-radius: 30%;
-                        width: 27px;
-                        height: 27px;
-                        margin: 5px 5px;
-                        font-size: 20px;
-                        transition: .3s;
-}            
+  justify-content: center;
+  color:darkblue; 
+  display:inline-block;  
+  text-decoration: none;
+  border: 3px solid black;
+  border-radius: 30%;
+  width: 27px;
+  height: 27px;
+  margin: 5px 5px;
+  font-size: 20px;
+  transition: .3s;
+}          
 .inicio .contenedor-banner .redes a:hover{
-                        background-color:rgb(14, 29, 238);
+   background-color:rgb(14, 29, 238);
 }
 
-/*Seccion Sobremi*/
+/*Seccion NOSOTROS*/
 .NOSOTROS {
                         background-color: black;
                         color: aquamarine;
@@ -187,7 +190,7 @@ padding: 0;
   width: 100%;
  }
 
-/* SECCION CURRICULUM */
+/* SECCION SITIOS */
 .SITIOS{
                         background-color:khaki;
                         color:rgb(41, 28, 224);
@@ -222,7 +225,7 @@ padding: 0;
   position: relative;
 }
 .SITIOS .fila .item h4{
-  color:rgb(241, 19, 186);
+  color:blue;
   font-size: 25;
   font-weight: bold;
 }
