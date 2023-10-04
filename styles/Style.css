@@ -69,34 +69,34 @@ align-items: center;
                      
 
 .inicio .contenedor-banner{
-                      display: block;
-                      background-color:greenyellow;
-                      align-items: center;
-                      padding: 10px;
-                      max-width: 250px;
-                      margin-top: auto;
-                      text-align: center;
-                      border-radius: 40px;
+display: block;
+background-color:greenyellow;
+align-items: center;
+padding: 10px;
+max-width: 250px;
+margin-top: auto;
+text-align: center;
+border-radius: 40px;
 }
 .inicio .contenedor-banner img{
                     
-                      display: block;
-                      align-items:center;
-                      margin-top: 90px;
-                      border: 3px solid blue;
-                      width: 99%;
-                      margin-top: auto;
-                     border-radius: 30%;
-                     height: 40vh;
+display: block;
+align-items:center;
+margin-top: 90px;
+border: 3px solid blue;
+width: 99%;
+margin-top: auto;
+border-radius: 30%;
+height: 40vh;
 }
 .inicio .contenedor-banner h1{
-                      margin-top: 50 px;
-                      font-size: 37px;
-                      font-family:initial;
+margin-top: 50 px;
+font-size: 37px;
+font-family:initial;
 }
 .inicio .contenedor-banner h2{
-                      font-size: 20px;
-                      font-family:initial;
+font-size: 20px;
+font-family:initial;
 }
 .inicio .contenedor-banner .redes a{
   justify-content: center;
@@ -117,13 +117,13 @@ align-items: center;
 
 /*Seccion NOSOTROS*/
 .NOSOTROS {
-                        background-color: black;
-                        color: aquamarine;
-                        padding: 50px 20px;
+background-color: rgb(9, 21, 191);
+color: aquamarine;
+padding: 50px 20px;
 }
 .NOSOTROS .contenido-seccion{
-                        max-width: 1100px;
-                        margin: auto;
+max-width: 1100px;
+margin: auto;
 }
 .NOSOTROS h2{
            font-size: 46px; 
